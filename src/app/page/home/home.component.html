@@ -1,0 +1,249 @@
+<main id="main" [class.dark-mode]="isDarkMode">
+    <div class="container" >
+        <div class="left">
+        <h1>Journée &nbsp;<span>Porte Ouverte</span></h1>
+        <p id="subtitle">Lorem ipsum dolor sit amet consectetur. Tempus eget commodo nulla nisl tellus. Volutpat sed fames varius arcu massa malesuada in enim. Convallis in.</p>
+        <div id="cta-visit">
+                <p>Clic pour visiter</p>
+                <a href="">Visite Virtuel</a>
+            </div>
+        </div>
+        <div class="right">
+            <img [src]="main_character" alt="" srcset="" class="main_character">
+        </div>
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob1">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob2">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob3">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob4">
+        <img [src]="blob" alt="" srcset="" class="blob" id="blob5">
+        <img [src]="blur_snd" alt="" srcset="" id="blur2">
+    </div>
+</main>
+<!-- </div> -->
+<section id="jpo-date" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <div class="card-part">    
+        <div class="c1"></div>
+        <div class="c2">
+            <h1>Journée <br>Porte Ouverte</h1>
+            <div id="date-c2">
+                <div class="date">
+                    <span>0</span>
+                </div>
+                <div class="date">
+                    <span>0</span>
+                </div>
+                <p>jours</p>
+            </div>
+        </div>
+    </div>
+</div> 
+</section>
+
+
+
+
+<section id="presentation" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>IUT Meaux gustave eiffel presente </h2>
+    <p id="text-container">
+        <span id="highlight">L'IUT de Meaux</span><span> Gustave Eiffel</span> 
+        <span id="highlight"> forme des </span>
+        <span id="highlight"> forme des professionnels compétents</span>
+        <span id="highlight"> dans un environnement</span>
+        <span id="highlight"> innovant et dynamique.</span>
+    </p>
+</div>
+</section>
+
+<section id="card-ui-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>Nos Formations</h2>
+</div>
+<div id="wrapper-card-ui">
+    <div class="card" id="MMI">
+        <div class="left">
+            <h3>BUT MMI</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque vel. Nulla sit fames lorem donec quam purus pharetra aliquam sem. Dignissim venenatis .</p>
+        </div>
+        <div class="right">
+            <img [src]="main_character" alt="" srcset="">
+        </div>
+    </div>
+    <div class="card" id="TC">
+        <div class="left">
+            <h3>BUT TC</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque vel. Nulla sit fames lorem donec quam purus pharetra aliquam sem. Dignissim venenatis .</p>
+        </div>
+        <div class="right">
+            <img [src]="robot_character" alt="" srcset="">
+        </div>
+    </div>
+    <div class="card" id="GEA">
+        <div class="left">
+            <h3>BUT GEA </h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque vel. Nulla sit fames lorem donec quam purus pharetra aliquam sem. Dignissim venenatis .</p>
+        </div>
+        <div class="right">
+            <img [src]="pebble_character" alt="" srcset="">
+        </div>
+    </div>
+        <div class="card" id="CMS">
+        <div class="left">
+            <h3>Licence pro mention CMS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque vel. Nulla sit fames lorem donec quam purus pharetra aliquam sem. Dignissim venenatis .</p>
+        </div>
+        <div class="right">
+            <img [src]="explorer_character" alt="" srcset="">
+        </div>
+    </div>
+    <div class="card" id="assurance">
+        <div class="left">
+            <h3>Licence pro mention assurance</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque vel. Nulla sit fames lorem donec quam purus pharetra aliquam sem. Dignissim venenatis .</p>
+        </div>
+        <div class="right">
+            <img [src]="aero_character" alt="" srcset="">
+        </div>
+    </div>  
+</div>
+<div class="container">
+    <div id="button-card">
+        <button  id="button-left" (click)="clickLeft()">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button   id="button-right" (click)="clickRight()" > 
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+</div>
+</section>
+<section id="exploration" class="reveal" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <div class="left">
+        <p id="feature">New feature</p>
+        <h2>Explore ton  futur <br>IUT</h2>
+        <p>Lorem ipsum dolor sit amet  consectetur. Aliquam dictum</p>
+        <a href="">
+            <div id="link_text">
+                <p>voir plus</p>
+            </div>
+        </a>
+    </div>
+    <div class="right">
+        <div class="card">
+            <img [src]="explorer_character" alt="" srcset="">
+            <h3>Visite Virtuel</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque </p>
+            <a href="">visiter</a>
+        </div>
+        <div class="card">
+            <img [src]="robot_character" alt="" srcset="">
+            <h3>Quizz</h3>
+            <p>Lorem ipsum dolor sit amet consectetur. Aliquam dictum scelerisque morbi scelerisque </p>
+            <a href="">visiter</a>
+        </div>
+    </div>
+</div>
+</section>
+<section id="quote-section" [class.dark-mode]="isDarkMode">
+<h2>Les gens parlent de nous ...</h2>
+<div class="container">
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio laboriosam hic consequatur cum pariatur cumque. Assumenda, ex dignissimos? Quasi iure nihil suscipit voluptatibus doloremque. Quia incidunt molestiae exercitationem ipsa?</p>
+        <span class="name">name</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio laboriosam hic consequatur cum pariatur cumque. Assumenda, ex dignissimos? Quasi iure nihil suscipit voluptatibus doloremque. Quia incidunt molestiae exercitationem ipsa?</p>
+        <span class="name">name</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio laboriosam hic consequatur cum pariatur cumque. Assumenda, ex dignissimos? Quasi iure nihil suscipit voluptatibus doloremque. Quia incidunt molestiae exercitationem ipsa?</p>
+        <span class="name">name</span>
+        <span class="statut">student</span>
+    </div> 
+</div>
+<div class="container">
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio laboriosam hic consequatur cum pariatur cumque. Assumenda, ex dignissimos? Quasi iure nihil suscipit voluptatibus doloremque. Quia incidunt molestiae exercitationem ipsa?</p>
+        <span class="name">name</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio laboriosam hic consequatur cum pariatur cumque. Assumenda, ex dignissimos? Quasi iure nihil suscipit voluptatibus doloremque. Quia incidunt molestiae exercitationem ipsa?</p>
+        <span class="name">name</span>
+        <span class="statut">student</span>
+    </div>
+    <div class="quote-block">
+        <img [src]="profil" alt="" srcset="">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, optio laboriosam hic consequatur cum pariatur cumque. Assumenda, ex dignissimos? Quasi iure nihil suscipit voluptatibus doloremque. Quia incidunt molestiae exercitationem ipsa?</p>
+        <span class="name">name</span>
+        <span class="statut">student</span>
+    </div> 
+</div>
+</section>
+<section id="paralax-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>Découvre ton IUT</h2>
+    <img [src]="IUT_picture" alt="" srcset="" class="thumbnail">
+</div>
+</section>
+<section id="video-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <h2>Nos vidéos</h2>
+
+    <div id="wrapper-video">
+        <div class="under-wrapper-video">
+            <div class="video-contain">
+                <ngx-skeleton-loader count="1" animation="progress-dark" [theme]="{background: '#242426', width:'100%', height:'100%', 'border-radius': '15px' }" class="skeleton-loader"></ngx-skeleton-loader>
+            </div>
+            <div>
+                <h3>3D team asset</h3>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="under-wrapper-video">
+            <div class="video-contain">
+                <ngx-skeleton-loader count="1" animation="progress-dark" [theme]="{background: '#242426', width:'100%', height:'100%', 'border-radius': '15px' }" class="skeleton-loader"></ngx-skeleton-loader>
+            </div>
+            <div>
+                <h3>3D team asset</h3>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        <div class="under-wrapper-video">
+            <div class="video-contain">
+                <ngx-skeleton-loader  animation="progress-dark" [theme]="{background: '#242426', width:'100%', height:'100%','border-radius': '15px' }"></ngx-skeleton-loader>
+            </div>
+            <div>
+                <h3>3D team asset</h3>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</section>
+<section id="CTA-section" [class.dark-mode]="isDarkMode">
+<div class="container">
+    <div id="CTA">
+        <div>
+            <h2>Pret pour le Quizz</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <a href="">Commencer le quizz</a>
+    </div>
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b1" >
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b2">
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b3">
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b4">
+    <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b5">
+</div>
+</section>

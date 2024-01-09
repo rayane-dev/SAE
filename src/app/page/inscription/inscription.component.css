@@ -1,0 +1,245 @@
+#inscription{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #111; */
+    padding: 25px 20px;
+    font-family: 'Poppins';
+    /* overflow: hidden; */
+    gap: 30px;
+}
+
+#inscription .left{
+    min-width: 35vw;
+    height: 100%;
+    padding: 20px;
+}
+
+#inscription .left .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#inscription .left .top img{
+    height: 45px;
+}
+
+#inscription .left .top a{
+    display: flex;
+    align-items: center;
+    font-size: 18px; 
+    gap: 10px;
+}
+
+#inscription .left .top a i{
+    font-size: 18px; 
+}
+
+#inscription .left  .bottom{
+    height: 100%; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 30px;
+    padding-left: 50px;
+}
+
+#inscription .left form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    gap: 30px;
+    /* width: 400px; */
+    width: 100%;
+    padding: 0 0 0 0px;
+}
+
+#inscription .left #first-part h1{
+    font-size: 34px;
+}
+#inscription .left #first-part p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, .2);
+}
+
+#inscription .left #snd-part{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    font-size: 16px;
+}
+
+#inscription .left #snd-part input{
+   padding: 10px 10px;
+   background-color: #242426;
+   border: none;
+   border-radius: 2px;
+   font-size: 16px;
+}
+
+#inscription .left .bottom button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    background-color: #387FF7;
+}
+
+.right{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1400px ) {
+    #inscription .left  .bottom{
+        padding: 130px 0px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1240px ) {
+    #inscription{
+        gap: 20px;
+}
+    #inscription .left  .bottom{
+        padding: 130px 0px;
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px ) {
+    #inscription .left{
+        min-width: 40vw;
+        padding: 20px;
+    }
+    #inscription .left  .bottom{
+        padding: 130px 0px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 900px ) {
+    #inscription{
+        padding: 20px;
+    }
+    #inscription .left{
+        min-width: 100%;
+    }
+    #inscription .left  .bottom{
+        padding: 130px 0px;
+        padding-left: 30px;
+    }
+    #inscription .right{
+        display: none;
+    }
+    #inscription .left form{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    #inscription{
+        padding: 15px;
+    }
+    #inscription .left .bottom{
+        justify-content: center;
+        align-items: center;
+    }
+    #inscription .left .top img{
+        font-size: 40px;
+    }
+    #inscription .left .top a{
+        font-size: 16px; 
+        gap: 10px;
+    }
+    #inscription .left .top a i{
+        font-size: 16px; 
+    }
+    #inscription .left #first-part h1{
+        font-size: 32px;
+    }
+    #inscription .left #first-part p{
+        font-size: 14px;
+        color: rgba(255, 255, 255, .2);
+    }
+    #inscription .left form{
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 630px ){
+    #inscription .left form{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    #inscription .left #snd-part input{
+        padding: 10px 10px;
+        background-color: #242426;
+        border: none;
+        border-radius: 2px;
+        font-size: 14px;
+     }
+     #inscription .left  .bottom{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 520px ){
+    #inscription{
+        padding: 10px;
+    }
+    #inscription .left .top img{
+        height: 30px;
+    }
+    #inscription .left #first-part h1{
+        font-size: 28px;
+    }
+    #inscription .left #first-part p{
+        font-size: 12px;
+    }
+    form{
+        transform: translateY(-50px);
+    }
+    #inscription .left form{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    #inscription .left .top a{
+        font-size: 14px; 
+        gap: 10px;
+    }
+    #inscription .left .top a i{
+        font-size: 14px; 
+    }
+}
+
+.dark-mode .left  .top a{
+    color: #111 !important;
+}
+
+.dark-mode #inscription.dark-mode .left form{
+    color: #111;
+}
+
+.dark-mode #inscription.dark-mode .left #first-part p{
+    color: rgba(0, 0, 0, .2);
+}
+
+
+.dark-mode #inscription .left #snd-part input{
+    background-color: #f1f1f1;
+ }

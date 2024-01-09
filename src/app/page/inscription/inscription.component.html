@@ -1,0 +1,28 @@
+<section id="inscription" [class.dark-mode]="isDarkMode">
+    <div class="left">
+        <div class="top">
+            <a href="" routerLink="/">
+                <img [src]="logo" alt="" srcset="">
+            </a>
+            <a href="" routerLink="/"><i class="fa-solid fa-chevron-left"></i> Go back</a>
+        </div>
+        <div class="bottom">
+            <form action="">
+               <div id="first-part">
+                <h1>Sign-in</h1>
+                <p>Rentre ton email et ton mot de passe</p>
+               </div>
+               <div id="snd-part">
+                    <input type="text" placeholder="email">
+                    <input type="text" placeholder="mot de passe">
+               </div>
+               <button routerLink="/inscription/statistique">
+                    <p>Connexion</p>
+               </button>
+            </form>
+        </div>
+    </div>
+    <div class="right" [ngStyle]="{backgroundImage:'url(../../assets/ressources/illustration.png)'}">
+    </div>
+
+</section>

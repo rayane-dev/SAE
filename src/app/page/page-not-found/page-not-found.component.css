@@ -1,0 +1,55 @@
+#page-not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+#page-not-found div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    transform: translateY(-100px);
+    color: white;
+}
+
+#page-not-found div h1{
+    font-size: 100px;
+    color: #00000000;
+    -webkit-text-stroke: 1px  #fff;
+    padding: 0px;
+}
+
+#page-not-found div p { 
+    color: rgba(255, 255, 255, .6);
+}
+
+#page-not-found div a { 
+    color: #fff;
+    background-color: #111;
+    padding: 10px 40px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    margin-top: 40px;
+}
+
+
+/*Rajouter une animation styler pour le lien Home*/
+
+
+
+.dark-mode#page-not-found div h1{
+    color: #00000000;
+    -webkit-text-stroke: 1px  #111;
+
+}
+
+.dark-mode#page-not-found  div p { 
+    color: rgba(0, 0, 0, 6);
+}

@@ -1,0 +1,50 @@
+#portfolio{
+    position: relative;
+    z-index: 10;
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+#portfolio .container #wrapper-portfolio{
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    
+    row-gap: 70px;
+
+}
+
+
+#portfolio .container #wrapper-portfolio {
+   border-radius: 10px;
+   /* height: 170px; */
+   padding-top: 100px;
+   
+}
+
+#portfolio .container #wrapper-portfolio #portfolio-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+   
+}
+
+#portfolio .container #wrapper-portfolio #portfolio-card div{
+    background-color: #363062;
+    height: 150px;
+    width: 100%;
+    border-radius: 10px ;
+    cursor: pointer;
+
+}
+
+#portfolio .container #wrapper-portfolio #portfolio-card h5{
+    font-size: 18px;
+    color: #fff;
+}
+
+#portfolio .container #wrapper-portfolio #portfolio-card p{
+    font-size: 12px;
+    color: #fff;
+}

@@ -1,0 +1,35 @@
+<style>
+    #arrow_up_right {
+      fill: white !important;
+    }
+</style>
+<header [class.dark-mode]="isDarkMode">
+    <div class="container">
+        <div class="left">
+            <a href="" routerLink="/">
+                <img [src]="logo" alt="" srcset="" id="logo" >
+            </a>
+            
+        </div>
+        <div class="right">
+            <nav >
+                <a routerLink="/" class="nav-item">Home <img [src]="chevron_right" alt="" srcset="" ></a>
+                <a  class="nav-item">Visite virtuel <img [src]="chevron_right" alt="" srcset="" ></a>
+                <a routerLink="/FAQ" class="nav-item">FAQ <img [src]="chevron_right" alt="" srcset="" ></a>
+                <a routerLink="/inscription" class="nav-item">Sign Up<img [src]="chevron_right" alt="" srcset="" ></a>
+                
+                <img [src]="button_sea_sunrise" alt="" srcset="" class="nav-item" (click)="toggleDarkMode()">
+            </nav>
+            <button (click)="onButtonClick()" id="button-menu" aria-label="toggle curtain navigation">
+                <!-- <img [src]="menu" alt="" id="button-menu"> -->
+                <span class="line l1"></span>
+                <span class="line l2"></span>
+
+            </button>
+        </div>
+        
+       <a href="#" id="btn-project">Porfolio Étudiant<img [src]="arrow_up_right" alt="" srcset="" id="arrow_up_right"></a>
+    </div>
+</header>
+<img [src]="blur_one" alt="" srcset="" id="blur-one">
+

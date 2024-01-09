@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+    overflow-x: hidden;
+    min-width: 100vw;
+    --text-color: #fff;
+    transition: all .5s ease;
+}
+
+
+ul{
+    list-style: none;
+}
+
+/* @font-face {
+	font-family: 'Social';
+	src: url(‘./assets/fonts/ABCSocial-Light.woff2’) format(‘woff’),
+        url(‘./assets/fonts/ABCSocial-Regular.woff2’) format(‘woff’);
+} */
+
+
+/* @font-face {
+	font-family: 'Helvetica';
+	src: url(‘./assets/fonts/Helvetica.ttc’) format(‘truetype’)
+} */
+
+.container{
+    height: 100%;
+    padding: 0 10%;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    overflow-x: hidden;
+}
+
+app-header{
+    overflow-x: hidden;
+}
+
+app-root{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1240px){
+    .container{
+        padding: 0 7%;
+    }
+}
+
+
+body.dark-mode {
+    background-color: #fff;
+    color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
